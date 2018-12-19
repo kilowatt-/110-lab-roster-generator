@@ -1,4 +1,8 @@
 package model;
 
-public class NonExistentLabException {
+public class NonExistentLabException extends Exception {
+
+    public NonExistentLabException(String m) {
+        super(m);
+    }
 }
