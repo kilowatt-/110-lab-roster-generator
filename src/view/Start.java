@@ -57,7 +57,7 @@ public class Start {
         @Override
         public void actionPerformed(ActionEvent e) {
             lb_error.setForeground(Color.BLACK);
-            lb_error.setText("Reading file...");
+
             SwingWorker<Void, Void> worker  = new SwingWorker<Void, Void>() {
                 @Override
                 protected Void doInBackground() throws Exception {
@@ -65,6 +65,12 @@ public class Start {
 
                     if (!path.equals("")) {
                         try {
+
+                            SwingUtilities.invokeLater(() -> {
+                                lb_error.setText("Reading file...");
+
+                            });
+
                             DataReader.readData(path);
                             SwingUtilities.invokeLater(() -> {
                                 lb_error.setText("Done");

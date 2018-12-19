@@ -32,6 +32,10 @@ public class LabManager {
 
             try {
                 String labID= r.get("Lab");
+
+                if (labID.equals(""))
+                    continue;
+
                 String[] name = r.get("Student").split(",");
 
                 if (name.length != 2)

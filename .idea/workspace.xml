@@ -7,26 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94d4a933-37a6-466e-b05e-5d05f457ee99" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Lab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Lab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/NonExistentLabException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/NonExistentLabException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/WrongFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/WrongFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presenter/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presenter/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presenter/Exporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presenter/Exporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presenter/LabManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presenter/LabManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/GeneratorUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GeneratorUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/GeneratorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GeneratorUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainMenu.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainMenu.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Start.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Start.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TANamesDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TANamesDialog.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TANamesDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TANamesDialog.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LabManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LabManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/presenter/LabManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="324">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,23 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratorUI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneratorUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/GeneratorUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
+            <state relative-caret-position="435">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1188#1189#0" expanded="true" />
@@ -133,13 +103,29 @@
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file leaf-file-name="GeneratorUI.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/GeneratorUI.form">
-          <provider selected="true" editor-type-id="ui-designer" />
+      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Start.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="TANamesDialog.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/TANamesDialog.form">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorUI.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/GeneratorUI.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
@@ -199,22 +185,22 @@
         <option value="$PROJECT_DIR$/src/view/Frame.java" />
         <option value="$PROJECT_DIR$/src/model/Lab.java" />
         <option value="$PROJECT_DIR$/src/view/Main.java" />
-        <option value="$PROJECT_DIR$/src/view/Start.java" />
         <option value="$PROJECT_DIR$/src/view/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/view/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/view/MainMenu.form" />
         <option value="$PROJECT_DIR$/src/view/Start.form" />
-        <option value="$PROJECT_DIR$/src/presenter/LabManager.java" />
         <option value="$PROJECT_DIR$/src/view/Test.java" />
         <option value="$PROJECT_DIR$/src/presenter/Exporter.java" />
         <option value="$PROJECT_DIR$/src/view/TANamesDialog.form" />
         <option value="$PROJECT_DIR$/src/view/TANamesDialog.java" />
         <option value="$PROJECT_DIR$/src/view/GeneratorUI.form" />
         <option value="$PROJECT_DIR$/src/view/GeneratorUI.java" />
+        <option value="$PROJECT_DIR$/src/presenter/LabManager.java" />
+        <option value="$PROJECT_DIR$/src/view/Start.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="743" />
     <option name="y" value="292" />
     <option name="width" value="1262" />
@@ -264,6 +250,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="GeneratorUI" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="csvreader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csvreader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="Start" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="csvreader" type="b2602c69:ProjectViewProjectNode" />
@@ -422,6 +415,14 @@
       <option name="presentableId" value="Default" />
       <updated>1537081689406</updated>
     </task>
+    <task id="LOCAL-00001" summary="Made JTable non-editable">
+      <created>1545202887965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545202887965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -436,12 +437,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -460,6 +461,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made JTable non-editable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made JTable non-editable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,25 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Lab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -706,18 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,50 +715,10 @@
     <entry file="file://$PROJECT_DIR$/src/view/MainMenu.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Start.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presenter/LabManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presenter/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presenter/Exporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="166" column="7" selection-start-line="166" selection-start-column="7" selection-end-line="166" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -810,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/GeneratorUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
+        <state relative-caret-position="435">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1188#1189#0" expanded="true" />
@@ -820,6 +754,63 @@
             <element signature="e#4271#4272#0" expanded="true" />
             <element signature="e#4460#4461#0" expanded="true" />
             <element signature="e#4489#4490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presenter/Exporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="166" column="7" selection-start-line="166" selection-start-column="7" selection-end-line="166" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presenter/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Start.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presenter/LabManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
