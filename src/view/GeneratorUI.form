@@ -57,7 +57,7 @@
             <constraints/>
             <properties>
               <cellSelectionEnabled value="false"/>
-              <rowSelectionAllowed value="false"/>
+              <rowSelectionAllowed value="true"/>
             </properties>
           </component>
         </children>

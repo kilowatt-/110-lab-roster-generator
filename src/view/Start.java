@@ -19,10 +19,18 @@ public class Start {
     private JButton browseButton;
     private JButton okButton;
     private JLabel lb_error;
+    private JButton helpButton;
 
     public Start() {
         browseButton.addActionListener(new BrowseBtnClicked());
         okButton.addActionListener(new OKBtnClicked());
+        helpButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                HelpDialog h = new HelpDialog();
+                h.showDialog();
+            }
+        });
     }
 
 

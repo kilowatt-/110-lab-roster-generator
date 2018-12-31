@@ -51,77 +51,74 @@ public class GeneratorUI {
 
         backButton.addActionListener(new BackButtonPressed());
 
-        generateButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        generateButton.addActionListener(e -> {
 
-                TANamesDialog dialog = new TANamesDialog(selected.getLabID());
+            TANamesDialog dialog = new TANamesDialog(selected.getLabID());
 
-                int res = dialog.showDialog();
+            int res = dialog.showDialog();
 
-                if (res == 0) {
+            if (res == 0) {
 
-                    String[] taNames = dialog.getNames();
+                String[] taNames = dialog.getNames();
 
-                    JFileChooser fc = new JFileChooser();
-                    fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-                    fc.setDialogTitle("Select directory");
+                JFileChooser fc = new JFileChooser();
+                fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+                fc.setDialogTitle("Select directory to save lab roster to");
 
-                    int i = fc.showOpenDialog(jPanel);
+                int i = fc.showOpenDialog(jPanel);
 
-                    if (i == JFileChooser.APPROVE_OPTION) {
-                        path = fc.getSelectedFile().getPath();
+                if (i == JFileChooser.APPROVE_OPTION) {
+                    path = fc.getSelectedFile().getPath();
 
-                        if (selected.getLabID() != "")
-                            path = path + "/" + selected.getLabID() + ".xls";
-                        else
-                            path = path + "/" + "noLab.xls";
+                    if (selected.getLabID() != "")
+                        path = path + "/" + selected.getLabID() + ".xls";
+                    else
+                        path = path + "/" + "noLab.xls";
 
-                        lb_progress.setForeground(Color.BLACK);
-                        lb_progress.setText("Generating roster...");
+                    lb_progress.setForeground(Color.BLACK);
+                    lb_progress.setText("Generating roster...");
 
-                        SwingWorker<Void, Void> w = new SwingWorker<Void, Void>() {
-                            @Override
-                            protected Void doInBackground() throws Exception {
+                    SwingWorker<Void, Void> w = new SwingWorker<Void, Void>() {
+                        @Override
+                        protected Void doInBackground() throws Exception {
 
-                                try {
-                                    Exporter.export(path, selected.getLabID(), taNames);
-                                } catch (NonExistentLabException e) {
-                                    SwingUtilities.invokeLater(() -> {
-                                        lb_progress.setForeground(Color.RED);
-                                        lb_progress.setText("Selected non-existent lab");
-                                    });
-                                } catch (Exception e) {
-                                    SwingUtilities.invokeLater(() -> {
-                                        lb_progress.setForeground(Color.RED);
-                                        lb_progress.setText("Error occured");
-                                        e.printStackTrace();
-                                    });
-                                }
-
+                            try {
+                                Exporter.export(path, selected.getLabID(), taNames);
+                            } catch (NonExistentLabException e) {
                                 SwingUtilities.invokeLater(() -> {
-                                    lb_progress.setForeground(Color.BLUE);
-                                    lb_progress.setText("Done generating roster!");
+                                    lb_progress.setForeground(Color.RED);
+                                    lb_progress.setText("Selected non-existent lab");
                                 });
-
-                                File file = new File(path);
-
-                                if (!Desktop.isDesktopSupported()) {
-                                    System.out.println("Desktop is not supported");
-                                } else {
-                                    Desktop desktop = Desktop.getDesktop();
-                                    if (file.exists()) desktop.open(file);
-                                }
-
-                                return null;
+                            } catch (Exception e) {
+                                SwingUtilities.invokeLater(() -> {
+                                    lb_progress.setForeground(Color.RED);
+                                    lb_progress.setText("Error occured");
+                                    e.printStackTrace();
+                                });
                             }
-                        };
 
-                        w.execute();
+                            SwingUtilities.invokeLater(() -> {
+                                lb_progress.setForeground(Color.BLUE);
+                                lb_progress.setText("Done generating roster!");
+                            });
 
-                    }
-                    ;
+                            File file = new File(path);
+
+                            if (!Desktop.isDesktopSupported()) {
+                                System.out.println("Desktop is not supported");
+                            } else {
+                                Desktop desktop = Desktop.getDesktop();
+                                if (file.exists()) desktop.open(file);
+                            }
+
+                            return null;
+                        }
+                    };
+
+                    w.execute();
+
                 }
+                ;
             }
         });
     }
