@@ -63,6 +63,7 @@ public class MainMenu {
             JFrame frame = Main.m;
             GeneratorUI generatorUI = new GeneratorUI(selected);
             frame.setContentPane(generatorUI.getJPanel());
+            frame.setLocationRelativeTo(null);
             frame.pack();
         }
     }

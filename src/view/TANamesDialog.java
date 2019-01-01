@@ -1,7 +1,9 @@
 package view;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.event.*;
+import java.io.IOException;
 import java.util.prefs.Preferences;
 
 public class TANamesDialog extends JDialog {
@@ -78,6 +80,13 @@ public class TANamesDialog extends JDialog {
     }
 
     int showDialog() {
+        try {
+            this.setIconImage(ImageIO.read(getClass().getClassLoader().getResource("res/110.png")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        this.setTitle("Enter TA names");
+
         String[] tas = getSavedTAs();
 
         if (tas != null) {

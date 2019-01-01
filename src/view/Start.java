@@ -28,7 +28,7 @@ public class Start {
             @Override
             public void actionPerformed(ActionEvent e) {
                 HelpDialog h = new HelpDialog();
-                h.showDialog();
+                h.showDialog(false);
             }
         });
     }
