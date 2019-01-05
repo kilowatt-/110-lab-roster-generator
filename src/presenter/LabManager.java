@@ -43,8 +43,8 @@ public class LabManager {
 
                 String sid = r.get("Student Number");
 
-                String fname = name[1];
-                String lname = name[0];
+                String fname = name[0];
+                String lname = name[1];
 
 
                 Lab l = new Lab(labID);
