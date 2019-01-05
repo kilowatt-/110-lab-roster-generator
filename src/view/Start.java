@@ -11,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
+import java.util.prefs.Preferences;
 
 public class Start {
     private JPanel pnl_start;
@@ -40,6 +41,11 @@ public class Start {
         @Override
         public void actionPerformed(ActionEvent e) {
             JFileChooser fc = new JFileChooser();
+            Preferences p = Preferences.userRoot().node(this.getClass().getName());
+            String saved = p.get("lastPath", null);
+
+            if (saved != null)
+                fc.setCurrentDirectory(new File(saved));
             FileNameExtensionFilter filter = new FileNameExtensionFilter(
                     "CSV File", "csv");
             fc.setFileFilter(filter);
@@ -48,7 +54,12 @@ public class Start {
 
             if (option == JFileChooser.APPROVE_OPTION) {
                 File selectedFile = fc.getSelectedFile();
+                String dir = selectedFile.getParent();
+
+                p.put("lastPath", dir);
+                
                 String path = selectedFile.getPath();
+
                 txtField_selectedFile.setText(path);
 
             }
