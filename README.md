@@ -12,10 +12,9 @@ application because I was sick of doing that (although you will still have to re
 This Lab Roster Generator, unfortunately, does not:
 
 - Automatically download the CSV file. You'll have to download that yourself, and tell the program where it is.
-- Upload the grades to Canvas. You'll still have to do that yourself. I don't think there is a way around this without risking overriding other TAs grades, but I might be wrong.
+- Upload the grades to Canvas. You'll still have to do that yourself. I don't think there is a way around this without risking overriding other grades, but I might be wrong.
 
-I'd love to try and get these things working once I have the time, but my resources are limited especially because I no longer
-TA 110.
+I'd love to try and get these things working once I have the time, but my resources are limited especially because I no longer TA 110.
 
 ### Something doesn't work. Help!
 Please open an issue describing your problem and I'll see what I can do to help. Lab formats may change (grading schemes, etc),
