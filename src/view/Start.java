@@ -5,7 +5,6 @@ import presenter.DataReader;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,7 +14,6 @@ import java.util.prefs.Preferences;
 
 public class Start {
     private JPanel pnl_start;
-    private JLabel txt_label;
     private JTextField txtField_selectedFile;
     private JButton browseButton;
     private JButton okButton;
