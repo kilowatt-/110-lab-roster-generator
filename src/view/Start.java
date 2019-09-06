@@ -19,6 +19,8 @@ public class Start {
     private JButton okButton;
     private JLabel lb_error;
     private JButton helpButton;
+    private JLabel lb_title;
+    private JLabel lb_110icon;
 
     public Start() {
         browseButton.addActionListener(new BrowseBtnClicked());

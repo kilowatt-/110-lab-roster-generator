@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94d4a933-37a6-466e-b05e-5d05f457ee99" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RosterGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RosterGenerator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presenter/Exporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presenter/Exporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/HelpDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/HelpDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Start.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Start.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Start.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
